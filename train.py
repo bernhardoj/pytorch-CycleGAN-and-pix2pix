@@ -11,6 +11,7 @@ if __name__ == '__main__':
     dataset_size = len(data_loader)
     print('#training images = %d' % dataset_size)
 
+
     model = create_model(opt)
     model.setup(opt)
     visualizer = Visualizer(opt)
