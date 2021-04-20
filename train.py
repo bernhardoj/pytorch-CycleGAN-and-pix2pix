@@ -12,6 +12,8 @@ if __name__ == '__main__':
     print('#training images = %d' % dataset_size)
 
     model = create_model(opt)
+
+    
     model.setup(opt)
     visualizer = Visualizer(opt)
     total_steps = 0
